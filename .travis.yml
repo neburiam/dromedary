@@ -1,11 +1,13 @@
 language: node_js
 node_js:
-        - "7.2"
-
+- '7.2'
 before_script:
-        - npm install -g gulp
-        - npm install
-
+- npm install -g gulp
+- npm install
 script:
-        - gulp package-app
-
+- gulp package-app
+deploy:
+  provider: heroku
+  app: stormy-reef-81204
+  api_key:
+    secure: qY6+/uH9Ytlo7N91yXhkLtM6EKuuYWXnATrqy6Wh2y2KZEeEyqLR+c+pf4atGbCgImd5a076Y1ccB3aCv84PtuT/Li1ePk0KUWgi4tVZb2oznd7PHJSRCorw7jdnUsvvw22fhKUBmfNl27Rj7Y/9CPayjaPTZp37XpCtlBNxak6jS1bZ3HT2pXJtMNchzRVL9kQ0wwM7KMz+kIGhnC7Mi3tBqoVrSO1fJg8qJmOTPo0CdZ7i12ViEYnlqLOmZPcW+6BDbObqI5TcXmbi9wu5MuSWV2sqT+OcY5SnhOLcZXrYKmHxxFZn3rLxvDltO3lqX3k7JdHL0VJ90svHP+wOrLr0rQA35lJ6v6ZuhZVrRmNu4JXaUVfJtIAnixVl6V6yOlJYobS9WM5RJ7wHbrOL0dRqVmOSqySRDpvGCR36LN/lLJFxEPts6pLKeNBaZh7RXL/bDgHZlNEtHwwePz5w+nF1WtfPLxNqaTWwJ75u5PAOzvS/KMSW8Ob9WdVna8egRaw0f2KBjOCNAytEcROc5bV//RJiXFoFY0DnyEqQNvMjXBTf3Aeg6vsqb6Vk1gnucW46lk0QGuIzGa/I8BlTT0d30iYc73Vdd9PepAy0Ctf4QsT9CEKZSMMOjus6E7A5Czr/hvYXSTQvJluW7JFExsrnapJxAi9BQGpWv6NRlc0=
