@@ -6,3 +6,4 @@ beforescript:
 - npm install
 script:
 gulp package-app
+
