@@ -3,7 +3,7 @@ node_js:
         - '7.2'
 before_script:
         - npm install -g gulp
-        - npm install
+        - npm install -g
         - npm install -g cucumber
 script:
         - gulp package-app
