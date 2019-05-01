@@ -52,6 +52,7 @@
     "gulp-cucumber": "0.0.23"
   },
   "engines": {
-    "node": "7.2"
+    "node": "7.2",
+    { "npm" : "3.5" } 
   }
 }
