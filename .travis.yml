@@ -2,9 +2,8 @@ language: node_js
 node_js:
         - '7.2'
 before_script:
+        - npm install
         - npm install -g gulp
-        - npm install -g
-        - npm install -g cucumber
 script:
         - gulp package-app
 deploy:

@@ -50,5 +50,8 @@
   "devDependencies": {
     "cucumber": "^4.2.1",
     "gulp-cucumber": "0.0.23"
+  },
+  "engines": {
+    "node": "7.2"
   }
 }
