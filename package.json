@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "gulp test && gulp cucumber",
-    "start": "gulp"
+    "build": "gulp"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
