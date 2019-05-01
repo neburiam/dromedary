@@ -46,7 +46,8 @@
     "lambda-express": "^0.1.2",
     "moment": "^2.10.6",
     "cucumber": "^4.2.1",
-    "gulp-cucumber": "0.0.23"
+    "gulp-cucumber": "0.0.23",
+    "java": "^0.8.0"
   },
   "devDependencies": {
     "cucumber": "^4.2.1",
