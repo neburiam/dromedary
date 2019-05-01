@@ -41,3 +41,4 @@ cookbooks/dromedary/files/default/app
 *.iml
 
 node_modules/
+/lib
